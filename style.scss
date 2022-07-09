@@ -1,0 +1,22 @@
+@use "plain-carousel";
+@use "carousel-3d";
+
+html {
+	scroll-behavior: smooth;
+}
+
+.test {
+	/*   not relevant to this test */
+	background: red;
+	place-content: center;
+	display: inline-grid;
+	border: solid 1px black;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: lightblue;
+}
